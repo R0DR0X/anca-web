@@ -1,0 +1,394 @@
+{
+ "summary": {
+  "works": 47,
+  "clients": 19,
+  "from": 2019,
+  "to": 2025,
+  "categories": [
+   "Consultoría y expedientes",
+   "Mantenimiento y rehabilitación",
+   "Obras civiles",
+   "Saneamiento",
+   "Suministro e instalación",
+   "Topografía y lotización"
+  ]
+ },
+ "works": [
+  {
+   "id": "T43",
+   "year": 2025,
+   "client": "BESCO",
+   "title": "Limpieza hidráulica de línea de buzones exteriores",
+   "place": "Centrika 2, Piura",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T44",
+   "year": 2025,
+   "client": "Three Desarrollos Inmobiliarios",
+   "title": "Instalación de medidores de agua y reparación de pista",
+   "place": "Piura",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T45",
+   "year": 2025,
+   "client": "Consorcio Desarrollos Urbanísticos",
+   "title": "Supervisión de esquema de agua potable y alcantarillado – HU Alto Sol",
+   "place": "Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T46",
+   "year": 2025,
+   "client": "Xial Services",
+   "title": "Construcción de 4 zinkers de concreto de 20 toneladas",
+   "place": "Talara",
+   "category": "Obras civiles"
+  },
+  {
+   "id": "T39",
+   "year": 2024,
+   "client": "Seacorp Perú",
+   "title": "Construcción de cámaras de bombeo para PTAR",
+   "place": "Sechura",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T40",
+   "year": 2024,
+   "client": "Seacorp Perú",
+   "title": "Obras civiles en línea de evacuación de aguas residuales",
+   "place": "Sechura",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T41",
+   "year": 2024,
+   "client": "Seacorp Perú",
+   "title": "Caseta de bombeo a todo costo: captación, línea de conducción y cisterna",
+   "place": "Sechura",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T42",
+   "year": 2024,
+   "client": "Desarrollo Inmobiliario Marverde",
+   "title": "Construcción de pozo percolador de 30 m³",
+   "place": "Los Corales II, Piura",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T33",
+   "year": 2023,
+   "client": "Agrícola Peracamps",
+   "title": "Hitos de orden C, levantamiento topográfico y lotización",
+   "place": "Piura",
+   "category": "Topografía y lotización"
+  },
+  {
+   "id": "T34",
+   "year": 2023,
+   "client": "Coaktura Constructora e Inmobiliaria",
+   "title": "Estudio de preinversión Altos de Piura (predios 03, 05 y 08)",
+   "place": "Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T35",
+   "year": 2023,
+   "client": "Desarrollo Inmobiliario Marverde",
+   "title": "Limpieza y desinfección de 6 tanques de 10,000 L",
+   "place": "Piura",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T36",
+   "year": 2023,
+   "client": "Consorcio La Peña",
+   "title": "Veredas, sardineles y cerco perimétrico – I.E. N° 535",
+   "place": "La Peña, Querecotillo, Sullana",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T37",
+   "year": 2023,
+   "client": "Consorcio La Peña",
+   "title": "Pintura de interiores y exteriores – I.E. N° 535",
+   "place": "La Peña, Querecotillo, Sullana",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T38",
+   "year": 2023,
+   "client": "BESCO",
+   "title": "Recuperación hidráulica de línea de desagüe, tramos 1 y 2",
+   "place": "Centrika, Piura",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T14",
+   "year": 2022,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Mantenimiento y término de acabados de 18 viviendas",
+   "place": "Los Corales II, Piura",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T15",
+   "year": 2022,
+   "client": "Internacional de Transporte Turístico (ITSA)",
+   "title": "Mantenimiento y puesta en marcha de sistema de bombeo",
+   "place": "Piura",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T16",
+   "year": 2022,
+   "client": "Agrícola Peracamps",
+   "title": "Estudios de alternativas de agua potable y saneamiento para proyecto inmobiliario",
+   "place": "Tambogrande, Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T17",
+   "year": 2022,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Reparación de vivienda Mz B lote 19",
+   "place": "Los Corales II, Piura",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T18",
+   "year": 2022,
+   "client": "Colegio de Arquitectos – Regional Piura",
+   "title": "Suministro e instalación de 160 m de cerco poste-placa",
+   "place": "Santa Margarita, Piura",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T19",
+   "year": 2022,
+   "client": "Consultoría y Servicios Ray",
+   "title": "Proyecto de agua, alcantarillado y tratamiento de aguas residuales para habilitaciones urbanas",
+   "place": "Piura y Paita",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T20",
+   "year": 2022,
+   "client": "BESCO",
+   "title": "Gestión de factibilidad sanitaria Centrika E-04",
+   "place": "Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T21",
+   "year": 2022,
+   "client": "Desarrollo Inmobiliario Marverde",
+   "title": "Movimiento de tierras, cerco perimétrico y lotización de habilitación urbana",
+   "place": "Ejidos, Piura",
+   "category": "Obras civiles"
+  },
+  {
+   "id": "T22",
+   "year": 2022,
+   "client": "Poder Judicial",
+   "title": "Confección e instalación de símbolos y letras para sedes de la Corte Superior",
+   "place": "Tumbes",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T23",
+   "year": 2022,
+   "client": "Desarrollo Inmobiliario Marverde",
+   "title": "Replanteo de lotización y verificación de puntos geodésicos",
+   "place": "Piura",
+   "category": "Topografía y lotización"
+  },
+  {
+   "id": "T24a",
+   "year": 2022,
+   "client": "Los Portales",
+   "title": "Perfil técnico de redes sanitarias – Sol de Campiña II",
+   "place": "Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T24b",
+   "year": 2022,
+   "client": "Los Portales",
+   "title": "Estudio de preinversión / perfil técnico – San Isidro II etapa",
+   "place": "Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T25",
+   "year": 2022,
+   "client": "Consorcio La Peña",
+   "title": "Enchapado y pintura – I.E. N° 535 Dulce Nombre de María",
+   "place": "La Peña, Querecotillo, Sullana",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T26",
+   "year": 2022,
+   "client": "Consorcio La Peña",
+   "title": "Ventanas de aluminio con cristal – I.E. N° 535 Dulce Nombre de María",
+   "place": "La Peña, Querecotillo, Sullana",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T27",
+   "year": 2022,
+   "client": "BESCO",
+   "title": "Proyecto de saneamiento exterior del conjunto residencial Centrika 2",
+   "place": "Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T28",
+   "year": 2022,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Corte de terreno en zona recreativa de parque",
+   "place": "Los Corales II, Piura",
+   "category": "Obras civiles"
+  },
+  {
+   "id": "T29",
+   "year": 2022,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Limpieza de arena en pistas y veredas",
+   "place": "Los Corales II, Piura",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T30",
+   "year": 2022,
+   "client": "Consorcio La Peña",
+   "title": "Instalaciones eléctricas – I.E. N° 535 Dulce Nombre de María",
+   "place": "La Peña, Querecotillo, Sullana",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T31",
+   "year": 2022,
+   "client": "Consorcio La Peña",
+   "title": "Suministro e instalación de aparatos sanitarios – I.E. N° 535",
+   "place": "La Peña, Querecotillo, Sullana",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T32",
+   "year": 2022,
+   "client": "Consorcio La Peña",
+   "title": "Pintura para el mejoramiento del servicio inicial – I.E. N° 535",
+   "place": "La Peña, Querecotillo, Sullana",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T02",
+   "year": 2021,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Suministro e instalación de 15 tanques de 750 L en viviendas",
+   "place": "Los Corales II, Piura",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T03",
+   "year": 2021,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Construcción de pozo percolador de 50 m³",
+   "place": "Los Corales II, Piura",
+   "category": "Saneamiento"
+  },
+  {
+   "id": "T04",
+   "year": 2021,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Suministro e instalación de 10 tanques y desinfección de tuberías",
+   "place": "Los Corales II, Piura",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T05",
+   "year": 2021,
+   "client": "Concretos Supermix",
+   "title": "Instalación de postes y enmallado de cerco perimétrico (7,515 m²)",
+   "place": "Piura",
+   "category": "Suministro e instalación"
+  },
+  {
+   "id": "T06",
+   "year": 2021,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Contrapiso semipulido y pintura de techos en vivienda",
+   "place": "Los Corales II, Piura",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T07",
+   "year": 2021,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Simulación hidráulica de redes de agua",
+   "place": "Los Corales II, Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T08",
+   "year": 2021,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Limpieza de 6 tanques de almacenamiento de agua potable",
+   "place": "Los Corales II, Piura",
+   "category": "Mantenimiento y rehabilitación"
+  },
+  {
+   "id": "T09",
+   "year": 2021,
+   "client": "Los Corales Promotora y Constructora",
+   "title": "Relotización del proyecto Los Corales de Piura II, etapa III",
+   "place": "Piura",
+   "category": "Topografía y lotización"
+  },
+  {
+   "id": "T10",
+   "year": 2021,
+   "client": "Servicios Mecánicos Talara",
+   "title": "Construcción de caseta de seguridad",
+   "place": "Talara",
+   "category": "Obras civiles"
+  },
+  {
+   "id": "T11",
+   "year": 2021,
+   "client": "Los Altos de Castilla",
+   "title": "Expediente de replanteo de alcantarillado y agua potable",
+   "place": "Los Altos de Castilla, Piura",
+   "category": "Consultoría y expedientes"
+  },
+  {
+   "id": "T12",
+   "year": 2021,
+   "client": "Xial Services",
+   "title": "Obras civiles para el primer riel de concreto armado en almacén de Contour Global",
+   "place": "Talara",
+   "category": "Obras civiles"
+  },
+  {
+   "id": "T13",
+   "year": 2021,
+   "client": "Xial Services",
+   "title": "Obras civiles para el segundo riel de concreto armado en almacén de Contour Global",
+   "place": "Talara",
+   "category": "Obras civiles"
+  },
+  {
+   "id": "T01",
+   "year": 2019,
+   "client": "EsSalud",
+   "title": "Mantenimiento del pasadizo de emergencia del Hospital III José Cayetano Heredia",
+   "place": "Piura",
+   "category": "Mantenimiento y rehabilitación"
+  }
+ ]
+}

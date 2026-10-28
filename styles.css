@@ -168,6 +168,23 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.15; color: var(--navy
 .testimonial footer { color: rgba(255, 255, 255, .75); }
 .testimonial footer strong { color: var(--teal-light); }
 
+/* Documented experience */
+.exp-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+.exp-stats li { padding: 1.3rem 1.4rem; border-radius: var(--radius); background: var(--navy-800); color: rgba(255, 255, 255, .75); }
+.exp-stats strong { display: block; font-family: var(--font-head); font-size: 1.9rem; color: var(--teal-light); line-height: 1.1; }
+.exp-stats span { font-size: .88rem; }
+.exp-filters { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.6rem; }
+.chip { font: inherit; font-size: .85rem; font-weight: 600; padding: .5rem 1rem; border-radius: 999px; border: 1.5px solid var(--line); background: #fff; color: var(--navy-800); cursor: pointer; transition: all .2s; }
+.chip:hover { border-color: var(--teal); }
+.chip[aria-pressed="true"] { background: var(--grad); border-color: transparent; color: #fff; }
+.exp-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: .9rem; }
+.exp-item { display: grid; grid-template-columns: 64px 1fr; gap: 1rem; align-items: start; padding: 1.1rem 1.2rem; border-radius: var(--radius); background: var(--bg-alt); border-left: 4px solid var(--teal); }
+.exp-year { font-family: var(--font-head); font-weight: 800; font-size: 1.1rem; color: var(--navy-700); padding-top: .1rem; }
+.exp-item h3 { font-size: 1rem; margin: .2rem 0 .3rem; }
+.exp-meta { font-size: .85rem; color: var(--muted); }
+.exp-more { display: block; margin: 1.6rem auto 0; }
+.exp-more[hidden] { display: none; }
+
 /* Lightbox */
 .lightbox { position: fixed; inset: 0; z-index: 100; background: rgba(3, 10, 14, .92); display: grid; place-items: center; padding: 1.5rem; }
 .lightbox[hidden] { display: none; }
@@ -228,6 +245,8 @@ input[type="text"]:focus, select:focus, textarea:focus { outline: none; border-c
   .steps li::after { display: none; }
   .stats { grid-template-columns: repeat(2, 1fr); }
   .work-lg { grid-template-columns: 1fr; }
+  .exp-stats { grid-template-columns: repeat(2, 1fr); }
+  .exp-list { grid-template-columns: 1fr; }
   .designs { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 860px) {

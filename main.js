@@ -75,6 +75,59 @@ form.addEventListener("submit", (e) => {
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener");
 });
 
+// Documented experience list with category filters.
+const expList = document.querySelector(".exp-list");
+const expFilters = document.querySelector(".exp-filters");
+if (expList && expFilters) {
+  fetch("assets/experiencia.json")
+    .then((res) => res.json())
+    .then(({ summary, works }) => {
+      const PAGE = 12;
+      let active = "Todas";
+      let shown = PAGE;
+      const more = document.createElement("button");
+      more.type = "button";
+      more.className = "btn btn-dark exp-more";
+      expList.after(more);
+
+      const render = () => {
+        const items = works.filter((w) => active === "Todas" || w.category === active);
+        expList.innerHTML = "";
+        items.slice(0, shown).forEach((w) => {
+          const li = document.createElement("li");
+          li.className = "exp-item";
+          li.innerHTML = `<span class="exp-year"></span><div><span class="project-tag"></span><h3></h3><p class="exp-meta"></p></div>`;
+          li.querySelector(".exp-year").textContent = w.year;
+          li.querySelector(".project-tag").textContent = w.category;
+          li.querySelector("h3").textContent = w.title;
+          li.querySelector(".exp-meta").textContent = `${w.client} · ${w.place}`;
+          expList.append(li);
+        });
+        more.hidden = items.length <= shown;
+        more.textContent = `Ver ${items.length - shown} trabajos más`;
+      };
+
+      ["Todas", ...summary.categories].forEach((cat) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "chip";
+        const count = cat === "Todas" ? works.length : works.filter((w) => w.category === cat).length;
+        btn.textContent = `${cat} (${count})`;
+        btn.setAttribute("aria-pressed", String(cat === active));
+        btn.addEventListener("click", () => {
+          active = cat;
+          shown = PAGE;
+          expFilters.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c === btn)));
+          render();
+        });
+        expFilters.append(btn);
+      });
+      more.addEventListener("click", () => { shown += PAGE; render(); });
+      render();
+    })
+    .catch(() => { expList.innerHTML = "<li>No se pudo cargar el listado de trabajos.</li>"; });
+}
+
 // Lightbox for real project photos and designs.
 const lightbox = document.createElement("div");
 lightbox.className = "lightbox";

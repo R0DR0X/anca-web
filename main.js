@@ -139,7 +139,7 @@ document.body.append(lightbox);
 const closeLightbox = () => { lightbox.hidden = true; };
 lightbox.addEventListener("click", (e) => { if (e.target.tagName !== "IMG") closeLightbox(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLightbox(); });
-document.querySelectorAll(".work-gallery img, .designs img").forEach((img) => {
+document.querySelectorAll(".work-gallery img, .designs img, .feature-gallery img, .team-photos img").forEach((img) => {
   img.tabIndex = 0;
   const open = () => {
     lightbox.querySelector("img").src = img.src;

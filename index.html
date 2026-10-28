@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="preload" as="image" href="assets/real/pontemare-piscina.jpg" />
+  <link rel="preload" as="image" href="assets/real/hero-pontemare.jpg" />
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
   {
@@ -87,14 +87,18 @@
       <p class="hero-credit">Casa de playa Ponte Mare · obra ejecutada por ANCA</p>
     </section>
 
-    <!-- Client strip -->
-    <section class="clients" aria-label="Clientes">
-      <div class="container">
-        <p>Han confiado en nosotros</p>
-        <ul>
-          <li>EsSalud</li><li>Poder Judicial</li><li>Los Portales</li><li>BESCO</li><li>Seacorp Perú</li><li>Xial Services</li><li>Marverde</li><li>Colegio de Arquitectos – Piura</li><li>Concretos Supermix</li><li>Coaktura</li><li>Los Corales</li><li>Agrícola Peracamps</li>
-        </ul>
+    <!-- Clients -->
+    <section class="clients" aria-labelledby="clients-title">
+      <div class="container clients-head">
+        <p class="eyebrow">Clientes</p>
+        <h2 id="clients-title">Han confiado en nosotros</h2>
+        <p>Empresas privadas, inmobiliarias y entidades públicas que nos eligieron para sus proyectos.</p>
       </div>
+      <div class="marquee" role="list">
+        <ul class="marquee-track"><li><img src="assets/logos/essalud.png" alt="EsSalud" loading="lazy" /></li><li><img src="assets/logos/poder-judicial.png" alt="Poder Judicial del Perú" loading="lazy" /></li><li><img src="assets/logos/los-portales.png" alt="Los Portales" loading="lazy" /></li><li><img src="assets/logos/besco.png" alt="BESCO" loading="lazy" /></li><li><img src="assets/logos/colegio-arquitectos.png" alt="Colegio de Arquitectos del Perú" loading="lazy" /></li><li><img src="assets/logos/marverde.png" alt="Marverde" loading="lazy" /></li><li><img src="assets/logos/grupo-centenario.png" alt="Grupo Centenario" loading="lazy" /></li><li><img src="assets/logos/alegra.png" alt="Alegra promotora y constructora" loading="lazy" /></li><li><img src="assets/logos/xial-services.png" alt="Xial Services" loading="lazy" /></li><li><img src="assets/logos/amc-peru.png" alt="AMC Perú" loading="lazy" /></li><li><img src="assets/logos/itsa.png" alt="ITSA Bus" loading="lazy" /></li><li><img src="assets/logos/pristina.png" alt="Agua de mesa Pristina" loading="lazy" /></li><li><img src="assets/logos/grupo-techo.png" alt="Grupo Techo" loading="lazy" /></li></ul>
+        <ul class="marquee-track" aria-hidden="true"><li><img src="assets/logos/essalud.png" alt="EsSalud" loading="lazy" /></li><li><img src="assets/logos/poder-judicial.png" alt="Poder Judicial del Perú" loading="lazy" /></li><li><img src="assets/logos/los-portales.png" alt="Los Portales" loading="lazy" /></li><li><img src="assets/logos/besco.png" alt="BESCO" loading="lazy" /></li><li><img src="assets/logos/colegio-arquitectos.png" alt="Colegio de Arquitectos del Perú" loading="lazy" /></li><li><img src="assets/logos/marverde.png" alt="Marverde" loading="lazy" /></li><li><img src="assets/logos/grupo-centenario.png" alt="Grupo Centenario" loading="lazy" /></li><li><img src="assets/logos/alegra.png" alt="Alegra promotora y constructora" loading="lazy" /></li><li><img src="assets/logos/xial-services.png" alt="Xial Services" loading="lazy" /></li><li><img src="assets/logos/amc-peru.png" alt="AMC Perú" loading="lazy" /></li><li><img src="assets/logos/itsa.png" alt="ITSA Bus" loading="lazy" /></li><li><img src="assets/logos/pristina.png" alt="Agua de mesa Pristina" loading="lazy" /></li><li><img src="assets/logos/grupo-techo.png" alt="Grupo Techo" loading="lazy" /></li></ul>
+      </div>
+      <p class="clients-more container">Y además: Seacorp Perú · Los Corales · Coaktura · Concretos Supermix · Agrícola Peracamps · Consorcio La Peña · Three Desarrollos</p>
     </section>
 
     <!-- Dual path B2B / B2C -->
@@ -107,7 +111,7 @@
         </header>
         <div class="paths">
           <article class="path path-b2b reveal">
-            <img class="path-img" src="assets/real/supervision-planos.jpg" alt="Equipo de ANCA revisando planos en obra" loading="lazy" />
+            <img class="path-img" src="assets/wide/supervision-planos.jpg" alt="Equipo de ANCA revisando planos en obra" loading="lazy" />
             <div class="path-body">
               <span class="path-tag">Empresas y sector público</span>
               <h3>Obras e ingeniería para tu organización</h3>
@@ -123,7 +127,7 @@
             </div>
           </article>
           <article class="path path-b2c reveal">
-            <img class="path-img" src="assets/real/pontemare-terraza.jpg" alt="Terraza de la casa de playa Ponte Mare" loading="lazy" />
+            <img class="path-img" src="assets/wide/pontemare-terraza.jpg" alt="Terraza de la casa de playa Ponte Mare" loading="lazy" />
             <div class="path-body">
               <span class="path-tag">Para tu hogar</span>
               <h3>La casa que imaginas, bien construida</h3>
@@ -175,27 +179,27 @@
           <p>Desde el estudio del terreno hasta la entrega de la obra. Todas las fotos son de trabajos de ANCA.</p>
         </header>
         <div class="services">
-          <article class="service reveal" style="--img: url('assets/obras/tierras-1.jpg')">
+          <article class="service reveal" style="--img: url('assets/wide/tierras-1.jpg')">
             <div class="service-media" role="img" aria-label="Retroexcavadora de ANCA en movimiento de tierras"></div>
             <div class="service-body"><h3>Obras civiles y saneamiento</h3><p>Movimiento de tierras, redes de agua y desagüe, pozos percoladores, cámaras y casetas de bombeo.</p></div>
           </article>
-          <article class="service reveal" style="--img: url('assets/real/render-edificio.jpg')">
+          <article class="service reveal" style="--img: url('assets/wide/render-edificio.jpg')">
             <div class="service-media" role="img" aria-label="Render de edificio diseñado por ANCA"></div>
             <div class="service-body"><h3>Arquitectura y viviendas</h3><p>Diseño arquitectónico, planos, renders 3D y construcción de viviendas.</p></div>
           </article>
-          <article class="service reveal" style="--img: url('assets/real/supervision-planos.jpg')">
+          <article class="service reveal" style="--img: url('assets/wide/supervision-planos.jpg')">
             <div class="service-media" role="img" aria-label="Ingenieros revisando planos en obra"></div>
             <div class="service-body"><h3>Supervisión y expedientes técnicos</h3><p>Perfiles, estudios de preinversión, expedientes técnicos y supervisión de obras.</p></div>
           </article>
-          <article class="service reveal" style="--img: url('assets/real/estructura-columna.jpg')">
+          <article class="service reveal" style="--img: url('assets/wide/estructura-columna.jpg')">
             <div class="service-media" role="img" aria-label="Trabajador montando una columna prefabricada"></div>
             <div class="service-body"><h3>Estructuras y metal mecánica</h3><p>Concreto armado, prefabricados, estructuras metálicas, coberturas y tanques.</p></div>
           </article>
-          <article class="service reveal" style="--img: url('assets/real/topografia.jpg')">
+          <article class="service reveal" style="--img: url('assets/wide/topografia.jpg')">
             <div class="service-media" role="img" aria-label="Topógrafo de ANCA trabajando en campo"></div>
             <div class="service-body"><h3>Topografía y lotización</h3><p>Levantamientos topográficos, hitos geodésicos, replanteo y lotización.</p></div>
           </article>
-          <article class="service reveal" style="--img: url('assets/real/posteplaca-2.jpg')">
+          <article class="service reveal" style="--img: url('assets/wide/posteplaca-2.jpg')">
             <div class="service-media" role="img" aria-label="Instalación de cerco poste-placa"></div>
             <div class="service-body"><h3>Cercos y suministros</h3><p>Cercos poste-placa y perimétricos, suministro de agregados y alquiler de maquinaria.</p></div>
           </article>

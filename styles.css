@@ -141,6 +141,40 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.15; color: var(--navy
 .project .project-loc { margin-top: auto; padding-top: .4rem; font-weight: 600; color: var(--navy-700); font-size: .85rem; }
 .project-loc::before { content: "📍 "; }
 
+/* Real works */
+.works { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem; }
+.work { background: #fff; border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.work-lg { grid-column: 1 / -1; display: grid; grid-template-columns: 1.6fr 1fr; }
+.work-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3px; background: var(--navy-800); }
+.work-lg .work-gallery { grid-template-columns: repeat(4, 1fr); }
+.work-gallery img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; cursor: zoom-in; transition: filter .3s; }
+.work-gallery img:hover { filter: brightness(1.08); }
+.work-body { padding: 1.5rem 1.6rem 1.7rem; display: flex; flex-direction: column; gap: .45rem; justify-content: center; }
+.work-body h3 { font-size: 1.2rem; }
+.work-body p { color: var(--muted); font-size: .95rem; }
+.work-body .project-loc { font-weight: 600; color: var(--navy-700); }
+.sub-head { font-size: 1.35rem; margin: 3.5rem 0 1.3rem; }
+.designs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.designs figure { border-radius: var(--radius); overflow: hidden; position: relative; }
+.designs img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; cursor: zoom-in; transition: transform .5s; }
+.designs figure:hover img { transform: scale(1.05); }
+.designs figcaption { position: absolute; inset: auto 0 0; padding: 2rem 1rem .8rem; color: #fff; font-weight: 600; font-size: .9rem; background: linear-gradient(transparent, rgba(6, 20, 27, .85)); }
+.center { text-align: center; margin-top: 2.5rem; }
+
+/* Testimonial */
+.testimonial { display: grid; grid-template-columns: 340px 1fr; gap: 3.5rem; align-items: center; }
+.testimonial-video video { width: 100%; aspect-ratio: 9 / 16; border-radius: 20px; background: #000; box-shadow: 0 20px 50px rgba(0, 0, 0, .4); }
+.quote-text-lg { font-family: var(--font-head); font-size: clamp(1.25rem, 2.4vw, 1.75rem); line-height: 1.45; color: #fff; font-weight: 600; margin-bottom: 1.4rem; }
+.testimonial footer { color: rgba(255, 255, 255, .75); }
+.testimonial footer strong { color: var(--teal-light); }
+
+/* Lightbox */
+.lightbox { position: fixed; inset: 0; z-index: 100; background: rgba(3, 10, 14, .92); display: grid; place-items: center; padding: 1.5rem; }
+.lightbox[hidden] { display: none; }
+.lightbox img { max-width: min(92vw, 720px); max-height: 82vh; border-radius: 12px; }
+.lightbox p { color: #fff; text-align: center; margin-top: .8rem; }
+.lightbox button { position: absolute; top: 1rem; right: 1rem; width: 48px; height: 48px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .15); color: #fff; font-size: 1.6rem; cursor: pointer; }
+
 /* Quote */
 .quote { display: grid; grid-template-columns: .9fr 1.1fr; gap: 3rem; align-items: start; }
 .quote-text h2 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); margin-bottom: 1rem; }
@@ -193,6 +227,8 @@ input[type="text"]:focus, select:focus, textarea:focus { outline: none; border-c
   .steps { grid-template-columns: repeat(2, 1fr); }
   .steps li::after { display: none; }
   .stats { grid-template-columns: repeat(2, 1fr); }
+  .work-lg { grid-template-columns: 1fr; }
+  .designs { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 860px) {
   .menu-toggle { display: flex; }
@@ -201,7 +237,10 @@ input[type="text"]:focus, select:focus, textarea:focus { outline: none; border-c
   .menu a:not(.btn) { padding: .9rem 0; border-bottom: 1px solid rgba(255, 255, 255, .08); }
   .menu .btn { margin-top: 1rem; }
   .header { background: rgba(6, 20, 27, .92); }
-  .paths, .why, .quote, .contact { grid-template-columns: 1fr; }
+  .paths, .why, .quote, .contact, .works { grid-template-columns: 1fr; }
+  .testimonial { grid-template-columns: 1fr; gap: 2rem; }
+  .testimonial-video { max-width: 320px; margin-inline: auto; }
+  .work-lg .work-gallery { grid-template-columns: repeat(2, 1fr); }
   .clients .container { flex-direction: column; align-items: flex-start; gap: .8rem; }
 }
 @media (max-width: 560px) {

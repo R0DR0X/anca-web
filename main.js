@@ -75,4 +75,28 @@ form.addEventListener("submit", (e) => {
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener");
 });
 
+// Lightbox for real project photos and designs.
+const lightbox = document.createElement("div");
+lightbox.className = "lightbox";
+lightbox.hidden = true;
+lightbox.setAttribute("role", "dialog");
+lightbox.setAttribute("aria-modal", "true");
+lightbox.innerHTML = '<button type="button" aria-label="Cerrar">×</button><figure><img alt="" /><p></p></figure>';
+document.body.append(lightbox);
+const closeLightbox = () => { lightbox.hidden = true; };
+lightbox.addEventListener("click", (e) => { if (e.target.tagName !== "IMG") closeLightbox(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLightbox(); });
+document.querySelectorAll(".work-gallery img, .designs img").forEach((img) => {
+  img.tabIndex = 0;
+  const open = () => {
+    lightbox.querySelector("img").src = img.src;
+    lightbox.querySelector("img").alt = img.alt;
+    lightbox.querySelector("p").textContent = img.alt;
+    lightbox.hidden = false;
+    lightbox.querySelector("button").focus();
+  };
+  img.addEventListener("click", open);
+  img.addEventListener("keydown", (e) => { if (e.key === "Enter") open(); });
+});
+
 document.getElementById("year").textContent = new Date().getFullYear();

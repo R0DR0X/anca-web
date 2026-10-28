@@ -3,104 +3,345 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ANCA Construcciones y Servicios | Construcciones de calidad en Piura</title>
-  <meta name="description" content="Construcciones y Servicios ANCA EIRL: ejecución y supervisión de obras civiles, expedientes técnicos, topografía y metal mecánica en el norte del Perú." />
-  <meta property="og:title" content="ANCA Construcciones y Servicios" />
-  <meta property="og:description" content="Construimos sueños con la calidad y confianza que te mereces." />
+  <title>ANCA Construcciones y Servicios | Constructora en Piura – Obras civiles y viviendas</title>
+  <meta name="description" content="Constructora en Piura desde 2015. Obras civiles, supervisión, expedientes técnicos, saneamiento, metal mecánica y construcción de viviendas para empresas, sector público y familias del norte del Perú." />
+  <meta name="theme-color" content="#0b1f2a" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ANCA Construcciones y Servicios – Construcciones de calidad" />
+  <meta property="og:description" content="Obras civiles y viviendas en el norte del Perú. Cotiza tu proyecto por WhatsApp." />
   <meta property="og:image" content="assets/og.jpg" />
   <link rel="icon" href="assets/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/hero.jpg" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GeneralContractor",
+    "name": "Construcciones y Servicios ANCA EIRL",
+    "slogan": "Construcciones de calidad",
+    "foundingDate": "2015",
+    "taxID": "20600199707",
+    "telephone": "+51 937 562 378",
+    "email": "conser.anca@gmail.com",
+    "image": "assets/og.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Urb. Las Palmeras Mz A3 Lt 34",
+      "addressLocality": "Castilla",
+      "addressRegion": "Piura",
+      "addressCountry": "PE"
+    },
+    "areaServed": ["Piura", "Tumbes", "Talara", "Norte del Perú"],
+    "sameAs": [
+      "https://www.instagram.com/anca.construccionesyservicios",
+      "https://www.facebook.com/anca.construccionesyservicios"
+    ]
+  }
+  </script>
 </head>
 <body>
-  <header class="nav">
-    <a href="#inicio" class="brand"><img src="assets/favicon.png" alt="" /> ANCA</a>
-    <nav>
-      <a href="#nosotros">Nosotros</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#experiencia">Experiencia</a>
-      <a href="#contacto" class="btn btn-sm">Contáctanos</a>
-    </nav>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="ANCA, inicio">
+        <img src="assets/favicon.png" alt="" width="36" height="36" />
+        <span><strong>ANCA</strong><small>Construcciones de calidad</small></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="menu">
+        <a href="#soluciones">Soluciones</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#cotizar" class="btn btn-primary btn-sm">Cotizar proyecto</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="inicio" class="hero">
-    <div class="hero-text">
-      <p class="eyebrow">Construcciones y Servicios ANCA EIRL</p>
-      <h1>Construimos sueños <span>con la calidad y confianza</span> que te mereces</h1>
-      <p>Más de 6 años desarrollando viviendas y obras civiles en el norte del país, con más de 20 clientes que siguen confiando en nosotros.</p>
-      <div class="actions">
-        <a href="https://wa.me/5193756378" class="btn" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
-        <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Constructora en Piura · Desde 2015</p>
+        <h1>Construimos obras que <span class="accent">perduran</span> en el tiempo</h1>
+        <p class="hero-lead">Obras civiles, supervisión, expedientes técnicos y viviendas para empresas, entidades públicas y familias del norte del Perú. Calidad, seguridad y confianza en cada etapa.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/51937562378?text=Hola%20ANCA%2C%20quiero%20cotizar%20un%20proyecto." class="btn btn-primary" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+          <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+        </div>
+        <ul class="stats" aria-label="ANCA en cifras">
+          <li><strong>2015</strong><span>Inicio de operaciones</span></li>
+          <li><strong>+20</strong><span>Clientes que confían en nosotros</span></li>
+          <li><strong>3</strong><span>Regiones: Piura, Talara y Tumbes</span></li>
+          <li><strong>B2B · B2C</strong><span>Sector público, privado y familias</span></li>
+        </ul>
       </div>
+    </section>
+
+    <!-- Client strip -->
+    <section class="clients" aria-label="Clientes">
+      <div class="container">
+        <p>Han confiado en nosotros</p>
+        <ul>
+          <li>EsSalud</li><li>Poder Judicial</li><li>Los Portales</li><li>BESCO</li><li>Grupo Centenario</li>
+          <li>Xial Services</li><li>Colegio de Arquitectos del Perú</li><li>Pristina</li><li>AMC Perú</li><li>ITSA</li><li>Alegra</li><li>Marverde</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Dual path B2B / B2C -->
+    <section id="soluciones" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Soluciones</p>
+          <h2>¿Qué necesitas construir?</h2>
+          <p>Trabajamos con empresas, entidades públicas y familias. Elige tu camino y te asesoramos desde el primer día.</p>
+        </header>
+        <div class="paths">
+          <article class="path path-b2b reveal">
+            <span class="path-tag">Empresas y sector público</span>
+            <h3>Obras e ingeniería para tu organización</h3>
+            <ul class="checks">
+              <li>Ejecución y supervisión de obras civiles</li>
+              <li>Perfiles y expedientes técnicos (preinversión e inversión)</li>
+              <li>Proyectos de agua potable y saneamiento</li>
+              <li>Estructuras metálicas y metal mecánica</li>
+              <li>Mantenimiento de infraestructura</li>
+              <li>Alquiler de maquinaria liviana y pesada</li>
+            </ul>
+            <a href="#cotizar" class="btn btn-primary" data-client="Empresa / Entidad pública">Solicitar propuesta técnica</a>
+          </article>
+          <article class="path path-b2c reveal">
+            <span class="path-tag">Para tu hogar</span>
+            <h3>La casa que imaginas, bien construida</h3>
+            <ul class="checks">
+              <li>Construcción de viviendas llave en mano</li>
+              <li>Diseño de proyectos arquitectónicos</li>
+              <li>Ampliaciones, remodelaciones e impermeabilización</li>
+              <li>Lotización de terrenos y topografía</li>
+              <li>Acompañamiento en cada etapa de tu obra</li>
+              <li>Presupuesto claro antes de empezar</li>
+            </ul>
+            <a href="#cotizar" class="btn btn-dark" data-client="Persona / Familia">Cotizar mi casa</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicios" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Servicios</p>
+          <h2>Todo tu proyecto con un solo equipo</h2>
+          <p>Desde el estudio del terreno hasta la entrega de la obra.</p>
+        </header>
+        <div class="services">
+          <article class="service reveal" style="--img: url('assets/img/civil.jpg')">
+            <div class="service-media" role="img" aria-label="Obra de redes de agua y alcantarillado"></div>
+            <div class="service-body">
+              <h3>Obras civiles y saneamiento</h3>
+              <p>Ejecución de infraestructura, redes de agua potable, alcantarillado y obras de mantenimiento.</p>
+            </div>
+          </article>
+          <article class="service reveal" style="--img: url('assets/img/housing.jpg')">
+            <div class="service-media" role="img" aria-label="Vivienda moderna terminada"></div>
+            <div class="service-body">
+              <h3>Viviendas y arquitectura</h3>
+              <p>Diseño arquitectónico y construcción de viviendas unifamiliares, sociales y de playa.</p>
+            </div>
+          </article>
+          <article class="service reveal" style="--img: url('assets/img/engineering.jpg')">
+            <div class="service-media" role="img" aria-label="Ingeniero revisando planos en obra"></div>
+            <div class="service-body">
+              <h3>Supervisión y expedientes técnicos</h3>
+              <p>Perfiles, expedientes a nivel de preinversión e inversión y supervisión de obras.</p>
+            </div>
+          </article>
+          <article class="service reveal" style="--img: url('assets/img/steel.jpg')">
+            <div class="service-media" role="img" aria-label="Soldador trabajando una estructura metálica"></div>
+            <div class="service-body">
+              <h3>Metal mecánica</h3>
+              <p>Fabricación y montaje de estructuras metálicas, coberturas y tanques.</p>
+            </div>
+          </article>
+          <article class="service reveal" style="--img: url('assets/img/survey.jpg')">
+            <div class="service-media" role="img" aria-label="Topógrafo con estación total en campo"></div>
+            <div class="service-body">
+              <h3>Topografía y lotización</h3>
+              <p>Estudios topográficos de ingeniería y lotización de terrenos.</p>
+            </div>
+          </article>
+          <article class="service service-cta reveal">
+            <div class="service-body">
+              <h3>Suministros y maquinaria</h3>
+              <p>Suministro de agregados, equipamiento para mobiliario y alquiler de máquinas livianas y pesadas.</p>
+              <a href="#cotizar" class="link-arrow">Consultar disponibilidad →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="proceso" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Cómo trabajamos</p>
+          <h2>Un proceso claro, sin sorpresas</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal"><span>01</span><h3>Visita y diagnóstico</h3><p>Conocemos tu necesidad, el terreno y las condiciones del proyecto.</p></li>
+          <li class="reveal"><span>02</span><h3>Propuesta y presupuesto</h3><p>Te entregamos alcance, metrados, plazos y un presupuesto detallado.</p></li>
+          <li class="reveal"><span>03</span><h3>Ejecución supervisada</h3><p>Construimos con personal calificado y control de calidad y seguridad.</p></li>
+          <li class="reveal"><span>04</span><h3>Entrega y garantía</h3><p>Entregamos la obra terminada y te acompañamos después de la entrega.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Values / why -->
+    <section class="section section-dark">
+      <div class="container why">
+        <div class="why-text reveal">
+          <p class="eyebrow">Por qué ANCA</p>
+          <h2>Cada inversión proviene de un gran esfuerzo. La cuidamos como propia.</h2>
+          <p>Somos una empresa del norte del país dedicada a desarrollar viviendas y obras civiles de calidad, con responsabilidad hacia la sociedad, nuestros trabajadores y el medio ambiente.</p>
+        </div>
+        <ul class="values">
+          <li class="reveal"><h3>Calidad</h3><p>Nuestro equipo se actualiza constantemente en los aspectos técnicos de la ingeniería.</p></li>
+          <li class="reveal"><h3>Compromiso</h3><p>Ejecutamos proyectos que perduran en el tiempo, cumpliendo plazos y alcances.</p></li>
+          <li class="reveal"><h3>Seguridad</h3><p>La seguridad y salud en el trabajo es prioridad en cada obra que ejecutamos.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experiencia" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Experiencia</p>
+          <h2>Obras ejecutadas en el norte del Perú</h2>
+          <p>Una selección de nuestros trabajos desde 2016. <em>Portafolio en actualización.</em></p>
+        </header>
+        <div class="projects">
+          <article class="project reveal"><span class="project-tag">Salud · Mantenimiento</span><h3>Hospital III José Cayetano Heredia</h3><p>Mantenimiento de infraestructura del pasadizo del servicio de emergencia.</p><p class="project-loc">Piura</p></article>
+          <article class="project reveal"><span class="project-tag">Saneamiento</span><h3>Agua potable y letrinas</h3><p>Sistema de agua potable y letrinas en caseríos San Pedrillo, Nuevo San Pedro, Charán Coposo y La Pala.</p><p class="project-loc">Tambogrande – Piura</p></article>
+          <article class="project reveal"><span class="project-tag">Industrial</span><h3>Módulo de oficinas y taller</h3><p>Oficinas, almacén de albañilería confinada y losa de concreto armado para taller de soldadura, Xial Services.</p><p class="project-loc">Talara Alta</p></article>
+          <article class="project reveal"><span class="project-tag">Vivienda social</span><h3>17 módulos de vivienda</h3><p>Ejecución de 17 módulos de vivienda social de 45 m².</p><p class="project-loc">Norte del Perú</p></article>
+          <article class="project reveal"><span class="project-tag">Vivienda</span><h3>Vivienda de playa</h3><p>Construcción de vivienda de playa en Canoa de Punta Sal.</p><p class="project-loc">Tumbes</p></article>
+          <article class="project reveal"><span class="project-tag">Expediente técnico · 2022</span><h3>Los Altos de Castilla</h3><p>Expediente técnico de replanteo de alcantarillado y redes de agua potable.</p><p class="project-loc">Castilla – Piura</p></article>
+          <article class="project reveal"><span class="project-tag">Industrial</span><h3>Planta de agua de mesa Pristina</h3><p>Acondicionamiento de la planta de agua de mesa.</p><p class="project-loc">Piura</p></article>
+          <article class="project reveal"><span class="project-tag">Cercos · Telecom</span><h3>Cerco perimétrico y caseta</h3><p>Cerco de 80 m en albañilería armada para Xial Services y caseta para antena de internet.</p><p class="project-loc">Pariñas – Talara</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote form -->
+    <section id="cotizar" class="section section-alt">
+      <div class="container quote">
+        <div class="quote-text reveal">
+          <p class="eyebrow">Cotiza tu proyecto</p>
+          <h2>Cuéntanos qué quieres construir</h2>
+          <p>Completa el formulario y te respondemos por WhatsApp con los siguientes pasos. Sin compromiso.</p>
+          <ul class="contact-mini">
+            <li><a href="tel:+51937562378">📞 937 562 378</a></li>
+            <li><a href="mailto:conser.anca@gmail.com">✉️ conser.anca@gmail.com</a></li>
+          </ul>
+        </div>
+        <form class="form reveal" id="quote-form" novalidate>
+          <div class="field">
+            <label for="f-name">Nombre o empresa *</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <fieldset class="field">
+            <legend>Tipo de cliente *</legend>
+            <div class="radios">
+              <label><input type="radio" name="client" value="Persona / Familia" required /> Persona / Familia</label>
+              <label><input type="radio" name="client" value="Empresa / Entidad pública" /> Empresa / Entidad pública</label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="f-type">Tipo de proyecto *</label>
+            <select id="f-type" name="type" required>
+              <option value="">Selecciona una opción</option>
+              <option>Construcción de vivienda</option>
+              <option>Ampliación o remodelación</option>
+              <option>Diseño arquitectónico</option>
+              <option>Obra civil / infraestructura</option>
+              <option>Agua potable y saneamiento</option>
+              <option>Supervisión de obra</option>
+              <option>Expediente técnico</option>
+              <option>Estructuras metálicas</option>
+              <option>Topografía o lotización</option>
+              <option>Alquiler de maquinaria / suministros</option>
+            </select>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-loc">Ubicación de la obra *</label>
+              <input id="f-loc" name="location" type="text" placeholder="Ej. Castilla, Piura" required />
+            </div>
+            <div class="field">
+              <label for="f-when">¿Cuándo quieres empezar?</label>
+              <select id="f-when" name="when">
+                <option>Lo antes posible</option>
+                <option>En 1 a 3 meses</option>
+                <option>En más de 3 meses</option>
+                <option>Solo estoy evaluando</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-msg">Cuéntanos más (metros, alcance, planos…)</label>
+            <textarea id="f-msg" name="message" rows="4"></textarea>
+          </div>
+          <p class="form-error" role="alert" hidden>Completa los campos obligatorios marcados con *.</p>
+          <button type="submit" class="btn btn-primary btn-block">Enviar por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contacto" class="section">
+      <div class="container contact">
+        <div class="contact-info reveal">
+          <p class="eyebrow">Contacto</p>
+          <h2>Visítanos o escríbenos</h2>
+          <ul class="contact-list">
+            <li><span>Teléfono / WhatsApp</span><a href="tel:+51937562378">937 562 378</a></li>
+            <li><span>Correo</span><a href="mailto:conser.anca@gmail.com">conser.anca@gmail.com</a></li>
+            <li><span>Oficina</span>Urb. Las Palmeras Mz A3 Lt 34, Castilla – Piura</li>
+            <li><span>Redes · @anca.construccionesyservicios</span><p><a href="https://www.instagram.com/anca.construccionesyservicios" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/anca.construccionesyservicios" target="_blank" rel="noopener">Facebook</a></p></li>
+          </ul>
+        </div>
+        <div class="map reveal">
+          <iframe title="Ubicación de ANCA en Castilla, Piura" src="https://www.google.com/maps?q=Urb.+Las+Palmeras,+Castilla,+Piura,+Peru&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Construcciones y Servicios ANCA EIRL</strong>
+        <p>RUC 20600199707 · Construcciones de calidad</p>
+      </div>
+      <p class="footer-note">© <span id="year"></span> ANCA. Imágenes referenciales.</p>
     </div>
-    <img class="hero-logo" src="assets/logo-dark.jpg" alt="Logo ANCA" />
-  </section>
+  </footer>
 
-  <section id="nosotros" class="section">
-    <h2>Nosotros</h2>
-    <p class="lead">ANCA surge en el año 2015 con el propósito de atender las necesidades del mercado que busca realizar y ejecutar proyectos de construcción. Somos conocidos por brindar un servicio de calidad, comprometiéndonos y siendo responsables con la sociedad y nuestros trabajadores para tener un resultado garantizado a la medida de cada cliente.</p>
-    <div class="grid two">
-      <article class="card">
-        <h3>Misión</h3>
-        <p>Desarrollar proyectos de viviendas y obras civiles de calidad en el norte del país, garantizando seguridad y confianza a nuestros clientes. Junto a nuestros colaboradores, somos responsables con la sociedad y el medio ambiente, asegurando la sostenibilidad de nuestra empresa.</p>
-      </article>
-      <article class="card">
-        <h3>Visión</h3>
-        <p>Ser una empresa líder en la región y en el país, realizando trabajos de calidad atendiendo al sector público y privado.</p>
-      </article>
-    </div>
-    <div class="grid three values">
-      <div><h4>Calidad</h4><p>Nuestro personal se actualiza continuamente en los aspectos técnicos de ingeniería para el desarrollo óptimo de cada proyecto.</p></div>
-      <div><h4>Compromiso</h4><p>Ejecutamos proyectos que perduran en el tiempo, reconociendo que toda inversión proviene de un gran esfuerzo.</p></div>
-      <div><h4>Responsabilidad</h4><p>La seguridad y salud en el trabajo son prioridad: prevenimos daños a nuestros trabajadores y aseguramos el proyecto a ejecutar.</p></div>
-    </div>
-  </section>
+  <a class="wa-float" href="https://wa.me/51937562378?text=Hola%20ANCA%2C%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.3-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.9-3.9-1.9-6 0-5.9 4.9-10.7 11-10.7s11 4.8 11 10.7-4.9 10.9-10.9 10.9zm6-8c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
 
-  <section id="servicios" class="section alt">
-    <h2>Nuestros servicios</h2>
-    <ul class="services">
-      <li>Ejecución y supervisión de obras civiles</li>
-      <li>Elaboración de perfiles y expedientes técnicos a nivel de preinversión e inversión</li>
-      <li>Estudios topográficos de ingeniería</li>
-      <li>Diseño de proyectos arquitectónicos</li>
-      <li>Proyectos de metal mecánica y estructuras metálicas</li>
-      <li>Consultoría para proyectos de saneamiento</li>
-      <li>Lotización de terrenos</li>
-      <li>Suministro de equipamiento para mobiliario y agregados</li>
-      <li>Alquiler de máquinas livianas y pesadas</li>
-    </ul>
-  </section>
-
-  <section id="experiencia" class="section">
-    <h2>A lo largo de los años</h2>
-    <ol class="timeline">
-      <li><strong>2016</strong> Mejoramiento de la iglesia Villas Chapito, distrito de La Arena.</li>
-      <li>Sistema de agua potable y letrinas en caseríos del distrito de Tambogrande – Piura.</li>
-      <li>Mantenimiento del pasadizo de emergencia del Hospital III José Cayetano Heredia.</li>
-      <li>Cerco perimétrico de 80 m en albañilería armada para Xial Services.</li>
-      <li>Módulo de oficinas, almacén y taller de soldadura en zona industrial de Talara Alta.</li>
-      <li>Acondicionamiento de planta de agua de mesa Pristina.</li>
-      <li>Ejecución de 17 módulos de vivienda social de 45 m².</li>
-      <li>Vivienda de playa en Canoa de Punta Sal – Tumbes.</li>
-      <li><strong>2022</strong> Expediente técnico de replanteo de alcantarillado, proyecto Los Altos de Castilla.</li>
-    </ol>
-    <h3 class="center">Clientes que confían en nosotros</h3>
-    <p class="clients">Xial Services · Pristina · Poder Judicial · Colegio de Arquitectos del Perú · AMC Perú · ITSA · EsSalud · BESCO · Los Portales · Grupo Centenario · Alegra · Marverde</p>
-  </section>
-
-  <section id="contacto" class="section contact">
-    <h2>¿Tienes un proyecto en mente?</h2>
-    <p>Haz realidad tus sueños y construye con nosotros.</p>
-    <div class="grid three">
-      <a class="card" href="tel:+5193756378"><h4>Llámanos</h4><p>93756378</p></a>
-      <a class="card" href="mailto:conser.anca@gmail.com"><h4>Escríbenos</h4><p>conser.anca@gmail.com</p></a>
-      <a class="card" href="https://maps.google.com/?q=Urb.+Las+Palmeras,+Castilla,+Piura" target="_blank" rel="noopener"><h4>Visítanos</h4><p>Urb. Las Palmeras Mz A3 Lt 34<br />Castilla – Piura</p></a>
-    </div>
-    <p class="social">Síguenos: <a href="https://www.instagram.com/anca.construccionesyservicios" target="_blank" rel="noopener">@anca.construccionesyservicios</a></p>
-  </section>
-
-  <footer>© <span id="y"></span> Construcciones y Servicios ANCA EIRL · Construcciones de calidad</footer>
-  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+  <script src="main.js" defer></script>
 </body>
 </html>
